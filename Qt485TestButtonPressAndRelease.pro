@@ -13,8 +13,10 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        btntestwindow.cpp
+        btntestwindow.cpp \
+    custompushbutton.cpp
 
-HEADERS  += btntestwindow.h
+HEADERS  += btntestwindow.h \
+    custompushbutton.h
 
 FORMS    += btntestwindow.ui

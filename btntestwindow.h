@@ -2,6 +2,7 @@
 #define BTNTESTWINDOW_H
 
 #include <QMainWindow>
+#include "custompushbutton.h"
 
 namespace Ui {
 class BtnTestWindow;
@@ -16,6 +17,7 @@ public:
     ~BtnTestWindow();
 
 private:
+    CustomPushButton *m_pCustomPushButton;
     Ui::BtnTestWindow *ui;
 };
 
